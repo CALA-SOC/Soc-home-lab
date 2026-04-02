@@ -172,8 +172,6 @@ Example:
 * Endpoint monitoring using Sysmon
 * Centralized log collection
 * Domain-based authentication logging
-* Attack simulation from Linux machine
-* Detection of suspicious activities
 
 ---
 
