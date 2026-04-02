@@ -37,7 +37,8 @@ The lab consists of four virtual machines:
    * Central log collection and analysis system
    * Receives logs from Windows systems
 
-📸 *Insert Screenshot Here: Overall VM setup in VirtualBox*
+**VM Setup**
+📸 *![VM Setup](https://github.com/CALA-SOC/Soc-home-lab/blob/main/Screenshots/Virtual%20machines.png)*
 
 ---
 
@@ -48,7 +49,8 @@ All virtual machines are connected using an **Internal Network** in VirtualBox t
 * Ensures isolated communication between VMs
 * Prevents interference with external networks
 
-📸 *Insert Screenshot Here: VirtualBox network settings*
+**VM Network Setup**
+📸 *![Network Setup](https://github.com/CALA-SOC/Soc-home-lab/blob/main/Screenshots/Network%20Configuration.png)*
 
 ---
 
@@ -72,8 +74,6 @@ All virtual machines are connected using an **Internal Network** in VirtualBox t
 * Allocated system resources (RAM, CPU, storage)
 * Installed operating systems
 
-📸 *Insert Screenshot Here: VM creation process*
-
 ---
 
 ### 2. Network Configuration
@@ -81,6 +81,7 @@ All virtual machines are connected using an **Internal Network** in VirtualBox t
 * Configured all VMs to use **Internal Network**
 * Verified connectivity using ping between systems
 
+**Connectivity Verification**
 📸 *Insert Screenshot Here: Successful ping between VMs*
 
 ---
@@ -91,8 +92,8 @@ All virtual machines are connected using an **Internal Network** in VirtualBox t
 * Promoted server to Domain Controller
 * Created a domain
 
-📸 *Insert Screenshot Here: AD DS installation*
-📸 *Insert Screenshot Here: Domain creation confirmation*
+**AD DS to Domain Controller**
+📸 *![AD DS installation](https://github.com/CALA-SOC/Soc-home-lab/blob/main/Screenshots/AD%20DS%20to%20Domain%20controller.png)*
 
 ---
 
@@ -101,8 +102,11 @@ All virtual machines are connected using an **Internal Network** in VirtualBox t
 * Joined Windows Client VM to the domain
 * Verified domain authentication
 
-📸 *Insert Screenshot Here: Joining domain*
-📸 *Insert Screenshot Here: Successful domain login*
+**Joining domain**
+📸 *![Joining domain](https://github.com/CALA-SOC/Soc-home-lab/blob/main/Screenshots/Sucessful%20domain%20joning.png)*
+
+**Successful domain login**
+📸 *![Successful domain login](https://github.com/CALA-SOC/Soc-home-lab/blob/main/Screenshots/Domian%20Login.png)*
 
 ---
 
@@ -114,8 +118,11 @@ All virtual machines are connected using an **Internal Network** in VirtualBox t
   * Windows Server VM
 * Configured logging for system activity monitoring
 
-📸 *Insert Screenshot Here: Sysmon installation command*
-📸 *Insert Screenshot Here: Sysmon logs in Event Viewer*
+**Sysmon installation command**
+📸 *![Sysmon installation command](https://github.com/CALA-SOC/Soc-home-lab/blob/main/Screenshots/Sysmon%20Installation%20command.png)*
+
+**Sysmon logs in Event Viewer**
+📸 *![Sysmon logs in Event Viewer](https://github.com/CALA-SOC/Soc-home-lab/blob/main/Screenshots/Sysmon%20Logs%20in%20Event%20viewer.png)*
 
 ---
 
@@ -124,7 +131,11 @@ All virtual machines are connected using an **Internal Network** in VirtualBox t
 * Installed Splunk Enterprise on Splunk VM
 * Configured web interface and initial setup
 
-📸 *Insert Screenshot Here: Splunk dashboard*
+**Splunk Installation**
+📸*![Splunk Installation](https://github.com/CALA-SOC/Soc-home-lab/blob/main/Screenshots/Splunk%20Installation.png)
+
+**Splunk Dashboard**
+📸 *![Splunk dashboard](https://github.com/CALA-SOC/Soc-home-lab/blob/main/Screenshots/Splunk%20dashboard.png)*
 
 ---
 
@@ -134,10 +145,10 @@ All virtual machines are connected using an **Internal Network** in VirtualBox t
 
   * Windows Client VM
   * Windows Server VM
-* Configured to send logs to Splunk server
+* Configured to send logs to the Splunk server
 
-📸 *Insert Screenshot Here: Forwarder installation*
-📸 *Insert Screenshot Here: inputs.conf configuration*
+**inputs.conf configuration file**
+📸 *![inputs.conf configuration](https://github.com/CALA-SOC/Soc-home-lab/blob/main/Screenshots/inputs.conf%20file.png)*
 
 ---
 
@@ -151,6 +162,7 @@ Example:
 * Login events
 * Sysmon activity logs
 
+**Logs in Splunk search**
 📸 *Insert Screenshot Here: Logs in Splunk search*
 
 ---
@@ -186,30 +198,3 @@ Example:
 
 ---
 
-## 📁 Project Structure
-
-```
-SOC-Home-Lab/
-│
-├── README.md
-├── screenshots/
-│   ├── vm-setup.png
-│   ├── network-config.png
-│   ├── ad-setup.png
-│   ├── sysmon-install.png
-│   ├── splunk-dashboard.png
-│   └── logs.png
-└── configs/
-    ├── sysmon-config.xml
-    └── inputs.conf
-```
-
----
-
-## 📌 Conclusion
-
-This project showcases a practical implementation of a SOC environment, demonstrating the ability to build, configure, and monitor systems in a simulated enterprise network.
-
-It highlights hands-on experience in cybersecurity operations, making it suitable for entry-level SOC Analyst roles.
-
----
