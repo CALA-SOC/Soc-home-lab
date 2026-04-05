@@ -82,7 +82,7 @@ All virtual machines are connected using an **Internal Network** in VirtualBox t
 * Verified connectivity using ping between systems
 
 **Connectivity Verification**
-📸 *![Connectivity Verification]()*
+📸 *![Connectivity Verification](https://github.com/CALA-SOC/Soc-home-lab/blob/main/Screenshots/Sucessful%20ping%20between%20VM's.png)*
 
 ---
 
