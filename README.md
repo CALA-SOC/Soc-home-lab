@@ -38,7 +38,7 @@ The lab consists of four virtual machines:
    * Receives logs from Windows systems
 
 **VM Setup**
-📸 *![VM Setup](https://github.com/CALA-SOC/Soc-home-lab/blob/main/Screenshots/Virtual%20machines.png)*
+📸 *![VM Setup]()*
 
 ---
 
