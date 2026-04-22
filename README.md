@@ -162,7 +162,8 @@ Example:
 * Sysmon activity logs
 
 **Logs in Splunk search**
-📸 *(https://github.com/CALA-SOC/Soc-home-lab/blob/main/Screenshots/Splunk%20Data%20Injection.png)*
+📸 *![](https://github.com/CALA-SOC/Soc-home-lab/blob/main/Screenshots/Splunk%20Data%20Injection.png)*
+    *![](https://github.com/CALA-SOC/Soc-home-lab/blob/main/Screenshots/sysmon%20logs.png)
 
 ---
 
