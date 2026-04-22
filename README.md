@@ -121,6 +121,8 @@ All virtual machines are connected using an **Internal Network** in VirtualBox t
 **Sysmon installation command**
 📸 *![Sysmon installation command](https://github.com/CALA-SOC/Soc-home-lab/blob/main/Screenshots/Sysmon%20Installation%20command.png)*
 
+
+
 **Sysmon logs in Event Viewer**
 📸 *![Sysmon logs in Event Viewer](https://github.com/CALA-SOC/Soc-home-lab/blob/main/Screenshots/Sysmon%20Log%20on%20event%20viewer.png)*
 
@@ -131,11 +133,8 @@ All virtual machines are connected using an **Internal Network** in VirtualBox t
 * Installed Splunk Enterprise on Splunk VM
 * Configured web interface and initial setup
 
-**Splunk Installation**
-📸*![Splunk Installation]()
-
 **Splunk Dashboard**
-📸 *![Splunk dashboard]()*
+📸 *![Splunk dashboard](https://github.com/CALA-SOC/Soc-home-lab/blob/main/Screenshots/SOC%20Monitoring%20Dashboard%20Copy.png)*
 
 ---
 
@@ -163,7 +162,7 @@ Example:
 * Sysmon activity logs
 
 **Logs in Splunk search**
-📸 *Insert Screenshot Here: Logs in Splunk search*
+📸 (https://github.com/CALA-SOC/Soc-home-lab/blob/main/Screenshots/Splunk%20Data%20Injection.png)
 
 ---
 
