@@ -103,10 +103,10 @@ All virtual machines are connected using an **Internal Network** in VirtualBox t
 * Verified domain authentication
 
 **Joining domain**
-📸 *![Joining domain](https://github.com/CALA-SOC/Soc-home-lab/blob/main/Screenshots/Sucessful%20domain%20joning.png)*
+📸 *![Joining domain](https://github.com/CALA-SOC/Soc-home-lab/blob/main/Screenshots/Sucessful%20domain%20joining.png)*
 
 **Successful domain login**
-📸 *![Successful domain login](https://github.com/CALA-SOC/Soc-home-lab/blob/main/Screenshots/Domian%20Login.png)*
+📸 *![Successful domain login](https://github.com/CALA-SOC/Soc-home-lab/blob/main/Screenshots/Domain%20login.png)*
 
 ---
 
@@ -122,7 +122,7 @@ All virtual machines are connected using an **Internal Network** in VirtualBox t
 📸 *![Sysmon installation command](https://github.com/CALA-SOC/Soc-home-lab/blob/main/Screenshots/Sysmon%20Installation%20command.png)*
 
 **Sysmon logs in Event Viewer**
-📸 *![Sysmon logs in Event Viewer](https://github.com/CALA-SOC/Soc-home-lab/blob/main/Screenshots/Sysmon%20Logs%20in%20Event%20viewer.png)*
+📸 *![Sysmon logs in Event Viewer](https://github.com/CALA-SOC/Soc-home-lab/blob/main/Screenshots/Sysmon%20Log%20on%20event%20viewer.png)*
 
 ---
 
@@ -132,10 +132,10 @@ All virtual machines are connected using an **Internal Network** in VirtualBox t
 * Configured web interface and initial setup
 
 **Splunk Installation**
-📸*![Splunk Installation](https://github.com/CALA-SOC/Soc-home-lab/blob/main/Screenshots/Splunk%20Installation.png)
+📸*![Splunk Installation]()
 
 **Splunk Dashboard**
-📸 *![Splunk dashboard](https://github.com/CALA-SOC/Soc-home-lab/blob/main/Screenshots/Splunk%20dashboard.png)*
+📸 *![Splunk dashboard]()*
 
 ---
 
