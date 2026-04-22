@@ -148,7 +148,7 @@ All virtual machines are connected using an **Internal Network** in VirtualBox t
 * Configured to send logs to the Splunk server
 
 **inputs.conf configuration file**
-📸 *![inputs.conf configuration](https://github.com/CALA-SOC/Soc-home-lab/blob/main/Screenshots/inputs.conf%20file_M.png)*
+📸 *![inputs.conf configuration](https://github.com/CALA-SOC/Soc-home-lab/blob/main/Screenshots/Inputs.config%20file.png)*
 
 ---
 
